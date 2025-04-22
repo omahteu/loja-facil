@@ -1,0 +1,29 @@
+[
+    {
+        "formulario_1": [
+            {
+                "campos": "8",
+                "titulo": "Clientes",
+                "sql_insert": "insert into clientes (nome, telefone) values (:nome, :telefone)",
+                "campo_1": [
+                    {
+                        "nome": "nome",
+                        "tipo": "text",
+                        "label": "Nome",
+                        "help": "Seu primeiro nome",
+                        "regras": ["1", "2", "3"]
+                    }
+                ],
+                "campo_2": [
+                    {
+                        "nome": "telefone",
+                        "tipo": "text",
+                        "label": "Telefone",
+                        "help": "Apenas números",
+                        "regras": ["3"]
+                    }
+                ]
+            }
+        ]
+    }
+]
